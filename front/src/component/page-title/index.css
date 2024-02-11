@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+.header_welcome {
+  color: white;
+}
+.welcome_title {
+  font-size: 42px;
+}
+.title {
+  font-weight: 500;
+  font-size: 24px;
+}
+.welcome_description {
+  font-size: 20px;
+}
+.description {
+  font-size: 14px;
+  color: #939199;
+}

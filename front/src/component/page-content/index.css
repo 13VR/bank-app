@@ -1,0 +1,11 @@
+.page__content {
+  display: flex;
+  flex-direction: column;
+  padding: 0 32px;
+  margin: 0 auto;
+  max-width: 394px;
+}
+
+.page__content--between {
+  justify-content: space-between;
+}

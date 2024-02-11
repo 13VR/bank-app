@@ -1,0 +1,34 @@
+.button {
+  width: 100%;
+  border-radius: 12px;
+  padding: 10px;
+  transition: opacity 0.7s;
+}
+.button:disabled {
+  cursor: default;
+  opacity: 0.7 !important;
+}
+.button:active {
+  opacity: 0.3;
+}
+button:hover {
+  opacity: 0.7;
+}
+
+.button_text {
+  font-size: 16px;
+}
+.button--primary {
+  border: 1px solid var(--color-primary);
+  background-color: var(--color-primary);
+  color: white;
+}
+
+.button--usual {
+  border: 1px solid var(--color-primary);
+  background-color: white;
+  color: var(--color-primary);
+}
+.button:disabled {
+  cursor: not-allowedw;
+}

@@ -1,0 +1,58 @@
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 100%;
+}
+.field_label {
+  font-size: 14px;
+}
+.field_label--error {
+  color: red;
+  font-size: 14px;
+}
+.field_wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 14px;
+}
+.field_input {
+  border: 1px solid #775ce5;
+  border-radius: 12px;
+  padding: 16px;
+  font-size: 14px;
+  transition: opacity 0.7s;
+  width: 100%;
+  &:hover {
+    opacity: 0.7;
+  }
+}
+.field_input--error {
+  border: 1px solid red;
+}
+.field_icon {
+  display: block;
+  height: 20px;
+  width: 20px;
+
+  cursor: pointer;
+  position: absolute;
+  right: 16px;
+  top: calc(50% - 10px);
+
+  &:hover {
+    opacity: 0.7;
+  }
+}
+.field_icon--error {
+  top: calc(50% - 20px);
+}
+
+.field_icon--eyehide {
+  background-image: url("./eye.svg");
+}
+.field_icon--eye {
+  background-image: url("./eyehide.svg");
+}
